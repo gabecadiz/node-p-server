@@ -2,12 +2,8 @@ const express = require('express');
 
 const app = express();
 
-app.get('/', (req, res) => {
-  const user = {
-    name: 'Gabe',
-    hobby: 'basketball'
-  };
-  res.send(user);
-});
+app.use(express.json()); //parsing application/json
+app.use(express.urlencoded()); //parsing application/x-www-form-urlencoded
+app.use(express.static(__dirname + '/public'));
 
 app.listen(3003);
