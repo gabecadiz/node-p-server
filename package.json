@@ -1,0 +1,23 @@
+{
+  "name": "s24-node-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabecadiz/node-p-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabecadiz/node-p-server/issues"
+  },
+  "homepage": "https://github.com/gabecadiz/node-p-server#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
