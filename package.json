@@ -19,5 +19,8 @@
   "homepage": "https://github.com/gabecadiz/node-p-server#readme",
   "devDependencies": {
     "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
